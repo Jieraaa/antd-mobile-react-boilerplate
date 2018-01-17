@@ -1,6 +1,5 @@
 /* eslint-disable no-restricted-syntax */
 import fetch from './fetch';
-
 const PROXY_TO_API = 'proxy_to_api/';
 
 const Api = {
@@ -32,7 +31,7 @@ const Api = {
 	 * @param queryObject eg. {name: 'xunaixuan', phone: '18610351888'}
 	 */
 	assembleUrl(host, path, queryObject) {
-		return host + path + this.assembleQueryParams(queryObject);
+		return `${location.origin}/${host}${path}${this.assembleQueryParams(queryObject)}`;
 	},
 
 	/**

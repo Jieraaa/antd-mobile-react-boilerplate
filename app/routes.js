@@ -26,21 +26,9 @@ export default function createRoutes(store) {
 		{
 			path: '/',
 			name: 'home',
-			getComponent(nextState, cb) {
-				const importModules = Promise.all([
-					import('containers/HomePage'),
-				]);
-
-				const renderRoute = loadModule(cb);
-
-				importModules.then(([component]) => {
-					renderRoute(component);
-				});
-
-				importModules.catch(errorLoading);
-			},
 			onEnter(nextState, replace) {
 				!getLoginState() && replace('/login');
+				replace('/menu0');
 			},
 		}, {
 			path: '/login',
@@ -82,7 +70,7 @@ export default function createRoutes(store) {
 					path: 'tab1',
 					getComponent(nextState, cb) {
 						const importModules = Promise.all([
-							import('containers/Login'),
+							import('containers/Demo'),
 						]);
 
 						const renderRoute = loadModule(cb);
@@ -131,7 +119,7 @@ export default function createRoutes(store) {
 					path: 'tab1',
 					getComponent(nextState, cb) {
 						const importModules = Promise.all([
-							import('containers/Login'),
+							import('containers/Demo'),
 						]);
 
 						const renderRoute = loadModule(cb);

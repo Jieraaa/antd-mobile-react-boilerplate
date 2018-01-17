@@ -3,7 +3,6 @@ import { Tabs } from 'antd-mobile';
 import { browserHistory } from 'react-router';
 import Const from './../../utils/Const';
 import eventProxy from './../../utils/eventProxy';
-import './TabBar.css';
 const menu = Const.menu;
 
 export default class TabBar extends React.PureComponent { // eslint-disable-line react/prefer-stateless-function
@@ -41,10 +40,10 @@ export default class TabBar extends React.PureComponent { // eslint-disable-line
 				currentMenuIndex = filterTabs.key;
 				tabIndexArr[currentMenuIndex] = filterTab.key;
 			} catch (e) {
-				// browserHistory.push(`/${menu[0].path}/${menu[0].subMenu[0].path}`);
+				browserHistory.push(`/${menu[0].path}/${menu[0].subMenu[0].path}`);
 			}
 		} else {
-			// browserHistory.push(`/${menu[0].path}/${menu[0].subMenu[0].path}`);
+			browserHistory.push(`/${menu[0].path}/${menu[0].subMenu[0].path}`);
 		}
 		this.setState({ tabs, currentMenuIndex, tabIndexArr, children: this.props.children });
 	}

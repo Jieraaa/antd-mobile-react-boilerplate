@@ -52,6 +52,7 @@ export default class LayoutBox extends React.PureComponent { // eslint-disable-l
 			eventProxy.trigger('menu', key);
 		});
 	}
+	loginPage = () => browserHistory.push('/login')
 
 	render() {
 		const { menuList } = this.state;
@@ -59,7 +60,7 @@ export default class LayoutBox extends React.PureComponent { // eslint-disable-l
 			<div>
 				<div className="header-box">
 					<div className="header-left">
-						<div className="header-avatar">
+						<div className="header-avatar" onClick={this.loginPage}>
 							<Badge dot>
 								<img src="http://oss-cn-hangzhou.aliyuncs.com/public-cli/free/f1b2ac45727b7282ceda47bdabf2319d1516082764.jpg" alt="user avatar"/>
 							</Badge>

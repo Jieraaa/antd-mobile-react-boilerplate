@@ -57,8 +57,6 @@ const rootRoute = {
   childRoutes: createRoutes(store),
 };
 
-console.info(rootRoute)
-
 const render = () => {
   ReactDOM.render(
     <Provider store={store}>
