@@ -46,3 +46,7 @@ More docs please refer to [react-boilerplate](./README_ORIGIN.md).
 ## 怎样发请求
 
 参考Demo页面，请求通过node进行代理转发，避免跨域问题
+
+## 怎样修改主题色
+
+internals/webpack/webpack.base.babel.js 修改theme,更多选项参考ant-design官网
