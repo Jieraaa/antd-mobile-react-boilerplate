@@ -42,3 +42,7 @@ More docs please refer to [react-boilerplate](./README_ORIGIN.md).
 
 1. 在app/container中新建文件夹，大驼峰命名，入口文件问index.js
 2. 在app/routes.js中添加路由，一定要放到notfound页面之前，一级目录参考login，二级目录参考menu0
+
+## 怎样发请求
+
+参考Demo页面请求发送发送，请求通过node进行代理转发，避免跨域问题
