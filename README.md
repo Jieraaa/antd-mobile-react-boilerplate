@@ -1,7 +1,7 @@
 ## 用react-biolerplate和antd-mobile搭建的手机端系统
 
 ### 登录页面
-<img src="http://oss-cn-hangzhou.aliyuncs.com/public-cli/free/fe5824d122b3c08ddcc71c1c8f66eea81516179613.jpeg" alt="Login Page" align="center"/>
+<img src="http://oss-cn-hangzhou.aliyuncs.com/public-cli/free/7290450d3470f36c66e9ced630653eb31516180833.jpeg" alt="Login Page" align="center"/>
 
 ### 内容页面
 <img src="http://oss-cn-hangzhou.aliyuncs.com/public-cli/free/b6e679550d22fe92a053de4738721da71516179622.jpeg" alt="Management Page" align="center" />
@@ -45,4 +45,4 @@ More docs please refer to [react-boilerplate](./README_ORIGIN.md).
 
 ## 怎样发请求
 
-参考Demo页面请求发送发送，请求通过node进行代理转发，避免跨域问题
+参考Demo页面，请求通过node进行代理转发，避免跨域问题
