@@ -1,10 +1,10 @@
 ## 用react-biolerplate和antd-mobile搭建的手机端系统
 
 ### 登录页面
-<img src="http://oss-cn-hangzhou.aliyuncs.com/public-cli/free/7290450d3470f36c66e9ced630653eb31516180833.jpeg" alt="Login Page" align="center"/>
+<img src="http://oss-cn-hangzhou.aliyuncs.com/public-cli/free/7290450d3470f36c66e9ced630653eb31516180833.jpeg" alt="Login Page" align="center" width="140" height="250"/>
 
 ### 内容页面
-<img src="http://oss-cn-hangzhou.aliyuncs.com/public-cli/free/b6e679550d22fe92a053de4738721da71516179622.jpeg" alt="Management Page" align="center" />
+<img src="http://oss-cn-hangzhou.aliyuncs.com/public-cli/free/b6e679550d22fe92a053de4738721da71516179622.jpeg" alt="Management Page" align="center" width="140" height="250"/>
 
 ### Install
     yarn install
